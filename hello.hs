@@ -5,4 +5,4 @@ main :: IO()
 -- main = putStrLn ("Hello, World")
 main = do 
     args <- getArgs
-    putStrLn ("Hello, " ++ args !! 0)
+    putStrLn ("Hello, " ++ args !! 0 ++ args !! 1)
